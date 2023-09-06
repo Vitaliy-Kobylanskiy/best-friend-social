@@ -1,0 +1,103 @@
+.multimedia {
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 100px;
+
+    .buttons {
+        cursor: pointer;
+        background: transparent;
+        border-radius: 5px;
+        padding: 2px;
+        background-color: rgb(91, 89, 89);
+        transition: 0.2s ease-in;
+        border: none;
+
+        &:hover {
+            background-color: rgb(72, 71, 71);
+        }
+    }
+
+    .buttons:nth-child(2) {
+        margin: 0 15px;
+    }
+
+    .song {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
+
+// Адаптив
+
+@media (max-width: 480px) {
+    .multimedia {
+        display: flex;
+        align-items: center;
+        padding: 0 10px 0 0;
+
+        .buttons {
+
+            cursor: pointer;
+            background: transparent;
+            border-radius: 5px;
+            padding: 2px;
+            background-color: rgb(91, 89, 89);
+            transition: 0.2s ease-in;
+
+
+            &:hover {
+                background-color: rgb(72, 71, 71);
+            }
+        }
+
+        .buttons:nth-child(2) {
+            margin: 0 5px;
+        }
+
+        .song {
+            font-size: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .imgButton {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .multimedia {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        padding: 0 10px 0 0;
+
+        .buttons {
+            cursor: pointer;
+            background: transparent;
+            border-radius: 5px;
+            padding: 2px;
+            background-color: rgb(91, 89, 89);
+            transition: 0.2s ease-in;
+
+            &:hover {
+                background-color: rgb(72, 71, 71);
+            }
+        }
+
+        .buttons:nth-child(2) {
+            margin: 0 5px;
+        }
+
+        .song {
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    }
+
+    .imgButton {
+        height: 18px;
+        width: 18px;
+    }
+}

@@ -1,0 +1,43 @@
+.wrapperCounter {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+
+    .selectedPage {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.selectedItems {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectedItems:hover {
+    background-color: #f0f0f0;
+}
+
+.selectedItems.active {
+    color: #fff;
+}
+
+// Адаптив 
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .wrapperCounter {
+        padding: 5px;
+
+        .selectedPage {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+
+    .selectedItems {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+}

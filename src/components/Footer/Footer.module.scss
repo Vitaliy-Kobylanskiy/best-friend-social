@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(114, 119, 119);
+
+    .text {
+        font-size: 25px;
+        padding: 40px 0;
+    }
+}
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer {
+
+        .text {
+            font-size: 20px;
+            padding: 25px 0;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.dataContainer {
+    margin-left: 100px;
+
+    & * {
+        margin: 0 0 15px 0;
+    }
+}
+
+.dataTitle {
+    font-size: 18px;
+}
+
+.dataDescription {
+    font-size: 16px;
+}
+
+.contact {
+    padding-left: 20px;
+
+    &:nth-child(1) {
+        margin-top: 15px;
+    }
+}
+
+.editButton {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #8a8f93;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .dataContainer {
+        margin-left: 10px;
+
+        & * {
+            margin: 0 0 5px 0;
+        }
+    }
+
+    .contact {
+        padding-left: 10px;
+        font-size: 12px;
+        white-space: normal;
+
+        &:nth-child(1) {
+            margin-top: 5px;
+        }
+    }
+
+    .dataTitle {
+        font-size: 12px;
+    }
+
+    .dataDescription {
+
+        font-size: 12px;
+        max-width: 50px;
+    }
+
+    .editButton {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .dataContainer {
+        margin: 15px 0 15px 0;
+    }
+}

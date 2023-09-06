@@ -1,0 +1,40 @@
+.wrapper {
+    flex-grow: 1;
+    padding: 0 10px 0 50px;
+
+    .contentWrapper {
+        display: flex;
+        padding: 25px 0 25px 0;
+    }
+}
+
+// Адаптив
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 0 0 0 20px;
+
+        .contentWrapper {
+            display: block;
+            max-width: 319px;
+            padding: 15px 0 0 0;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .wrapper {
+        padding: 0 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+        .contentWrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0 0 0;
+            min-width: 330px;
+            align-self: center;
+        }
+    }
+}

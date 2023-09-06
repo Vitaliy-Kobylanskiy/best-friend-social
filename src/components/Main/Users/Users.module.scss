@@ -1,0 +1,139 @@
+.sectionUsers {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.userWrapper {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    max-width: 800px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+    .userPhoto {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .dataBlock {
+        text-align: center;
+    }
+
+    .locationBlock {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+
+.userName {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.userCity {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    min-width: 70px;
+    padding: 10px 0;
+    background-color: #8a8f93;
+    color: #fff;
+    border-radius: 5px;
+    /* transition: transform 0.3s ease; */
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    /* &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    } */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sectionUsers {
+        padding: 0 10px 20px 10px;
+    }
+
+    .userWrapper {
+        min-width: 185px;
+        padding: 10px;
+
+        .userPhoto {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+
+        .dataBlock {
+            flex-grow: 1;
+        }
+    }
+
+    .userName {
+        font-weight: 500;
+        font-size: 8px;
+        margin: 0 10px 0 0;
+    }
+
+    .locationBlock {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+
+    .button {
+        padding: 2px 0;
+        min-width: 40px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .sectionUsers {
+        padding: 0 10px 20px 10px;
+
+        .blockUserWrapper {
+            margin: auto;
+        }
+
+        .userWrapper {
+            padding: 15px 10px;
+        }
+
+        .userPhoto {
+            width: 35px;
+            height: 35px;
+            margin-right: 40px;
+        }
+
+        .userName {
+            font-weight: 500;
+            font-size: 15px;
+            margin: 0 10px 0 0;
+            flex-grow: 1;
+        }
+
+        .locationBlock {
+            flex-grow: 1;
+        }
+
+        .button {
+            padding: 5px 0;
+        }
+    }
+}

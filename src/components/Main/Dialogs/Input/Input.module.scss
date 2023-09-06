@@ -1,0 +1,45 @@
+.input {
+    width: 100%;
+    background-image: url('../../../../assets/img/search.svg');
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    background-color: rgb(245, 242, 242);
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid rgb(171, 168, 168);
+    border-radius: 10px;
+    padding-right: 20px;
+    outline: none;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+// Адаптив
+
+@media (max-width: 480px) {
+    .inputWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input {
+        max-width: 319px;
+        height: 35px;
+        font-size: 14px;
+        margin: 0 10px 0 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .inputWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input {
+        max-width: 319px;
+        height: 35px;
+        font-size: 14px;
+        margin: 0 10px 0 0;
+    }
+}

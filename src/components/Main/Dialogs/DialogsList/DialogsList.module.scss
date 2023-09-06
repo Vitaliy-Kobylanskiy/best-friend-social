@@ -1,0 +1,22 @@
+.users {
+    padding: 0 25px 0 0;
+    border-right: 1px solid rgb(151, 148, 148);
+}
+
+// Адаптив
+
+@media (max-width: 480px) {
+    .users {
+        padding: 0 10px 15px 0;
+        border-right: 0;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .users {
+        padding: 0 10px 15px 0;
+        border-right: 0;
+        font-size: 12px;
+    }
+}

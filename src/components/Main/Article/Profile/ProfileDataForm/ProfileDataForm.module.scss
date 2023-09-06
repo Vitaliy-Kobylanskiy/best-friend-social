@@ -1,0 +1,56 @@
+.dataContainer {
+    padding: 0 0 0 100px;
+
+    & * {
+        margin: 0 0 5px 0;
+    }
+
+    .fieldWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.field {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.saveEditButton {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #8a8f93;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.contact {
+    padding: 0 0 0 20px;
+}
+
+.formSummaryError {
+    color: red;
+    user-select: none;
+}
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .dataContainer {
+        padding: 0;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .dataContainer {
+        padding: 0;
+        margin-top: 15px;
+    }
+}

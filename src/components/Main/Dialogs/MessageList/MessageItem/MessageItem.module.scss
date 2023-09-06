@@ -1,0 +1,17 @@
+.messageItem {
+    font-size: 15px;
+}
+
+// Адаптив
+
+@media (max-width: 480px) {
+    .messageItem {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .messageItem {
+        font-size: 12px;
+    }
+}
