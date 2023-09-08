@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/best-friend-social/static/css/main.96ea9bf9.css",
+    "main.js": "/best-friend-social/static/js/main.07e8c577.js",
+    "static/css/632.5a0bd6b8.chunk.css": "/best-friend-social/static/css/632.5a0bd6b8.chunk.css",
+    "static/js/632.032cff81.chunk.js": "/best-friend-social/static/js/632.032cff81.chunk.js",
+    "static/css/197.1652f02b.chunk.css": "/best-friend-social/static/css/197.1652f02b.chunk.css",
+    "static/js/197.e7eef6b0.chunk.js": "/best-friend-social/static/js/197.e7eef6b0.chunk.js",
+    "static/css/278.0aeb964a.chunk.css": "/best-friend-social/static/css/278.0aeb964a.chunk.css",
+    "static/js/278.644ea602.chunk.js": "/best-friend-social/static/js/278.644ea602.chunk.js",
+    "static/media/bg.jpg": "/best-friend-social/static/media/bg.84ad32ff8a5889cfcb58.jpg",
+    "static/media/loading.gif": "/best-friend-social/static/media/loading.6fdf6f7f6e2cdc0643c0.gif",
+    "static/media/logo.avif": "/best-friend-social/static/media/logo.bcf517b22d9c9bc1bdd1.avif",
+    "static/media/search.svg": "/best-friend-social/static/media/search.ccf44d779581efea9a71.svg",
+    "index.html": "/best-friend-social/index.html",
+    "static/media/skip-next.svg": "/best-friend-social/static/media/skip-next.d3be86e1c74b200e6acab822d189f16e.svg",
+    "static/media/skip-prev.svg": "/best-friend-social/static/media/skip-prev.f8c09a255b34cf5772784d51e109f010.svg",
+    "static/media/play.svg": "/best-friend-social/static/media/play.42134f81f9ffc5d98d233341f5b3377c.svg",
+    "main.96ea9bf9.css.map": "/best-friend-social/static/css/main.96ea9bf9.css.map",
+    "main.07e8c577.js.map": "/best-friend-social/static/js/main.07e8c577.js.map",
+    "632.5a0bd6b8.chunk.css.map": "/best-friend-social/static/css/632.5a0bd6b8.chunk.css.map",
+    "632.032cff81.chunk.js.map": "/best-friend-social/static/js/632.032cff81.chunk.js.map",
+    "197.1652f02b.chunk.css.map": "/best-friend-social/static/css/197.1652f02b.chunk.css.map",
+    "197.e7eef6b0.chunk.js.map": "/best-friend-social/static/js/197.e7eef6b0.chunk.js.map",
+    "278.0aeb964a.chunk.css.map": "/best-friend-social/static/css/278.0aeb964a.chunk.css.map",
+    "278.644ea602.chunk.js.map": "/best-friend-social/static/js/278.644ea602.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ea9bf9.css",
+    "static/js/main.07e8c577.js"
+  ]
+}
